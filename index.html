@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NOIR — Modern Fashion</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+      <div class="header__logo">NOIR</div>
+
+      <nav class="header__nav">
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">New In</a>
+        <a href="#">Collections</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="header__action">Search</button>
+        <button class="header__action">Wishlist</button>
+        <button type="button" class="header__bag">
+          Bag
+          <span class="bag-count">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ================= HERO ================= -->
+
+      <section class="hero">
+        <img
+          class="hero__image"
+          src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=2000&q=85"
+          alt="Fashion collection"
+        />
+
+        <div class="hero__content">
+          <p class="hero__eyebrow">AUTUMN / WINTER 2026</p>
+
+          <h1 class="hero__title">
+            THE NEW
+            <br />
+            COLLECTION
+          </h1>
+
+          <p class="hero__description">
+            Modern silhouettes designed for everyday life.
+          </p>
+
+          <div class="hero__buttons">
+            <a href="#" class="button button--light"> Shop Women </a>
+
+            <a href="#" class="button button--light"> Shop Men </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= NEW IN ================= -->
+
+      <section class="section new-in">
+        <div class="section__header">
+          <div>
+            <p class="section__eyebrow">LATEST ARRIVALS</p>
+
+            <h2 class="section__title">New In</h2>
+          </div>
+
+          <a href="#" class="section__link"> View all </a>
+        </div>
+
+        <div class="product-grid"></div>
+      </section>
+
+      <!-- ================= COLLECTION ================= -->
+
+      <section class="collection">
+        <img
+          class="collection__image"
+          src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=2000&q=85"
+          alt="NOIR collection"
+        />
+
+        <div class="collection__content">
+          <p class="collection__eyebrow">THE ESSENTIALS</p>
+
+          <h2 class="collection__title">
+            Designed
+            <br />
+            Without Excess
+          </h2>
+
+          <a href="#" class="button button--light"> Explore Collection </a>
+        </div>
+      </section>
+
+      <!-- ================= NEWSLETTER ================= -->
+
+      <section class="newsletter">
+        <div class="newsletter__content">
+          <p class="newsletter__eyebrow">STAY IN THE KNOW</p>
+
+          <h2 class="newsletter__title">Join our newsletter</h2>
+
+          <p class="newsletter__description">
+            Discover new collections, exclusive releases and stories from NOIR.
+          </p>
+
+          <form class="newsletter__form">
+            <input
+              type="email"
+              placeholder="Your email address"
+              aria-label="Email address"
+            />
+
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+        <!-- Bag Panel -->
+<aside class="bag-panel">
+
+    <div class="bag-panel__header">
+        <h2>Your Bag</h2>
+
+        <button
+            type="button"
+            class="bag-panel__close">
+            ×
+        </button>
+    </div>
+
+    <div class="bag-panel__items">
+    </div>
+
+    <div class="bag-panel__footer">
+
+        <p>
+            <span>Total</span>
+            <span class="bag-panel__total">₹0</span>
+        </p>
+
+        <button
+            type="button"
+            class="bag-panel__checkout">
+            Checkout
+        </button>
+
+    </div>
+
+</aside>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+      <div class="footer__brand">
+        <h2>NOIR</h2>
+
+        <p>Modern fashion for everyday life.</p>
+      </div>
+
+      <div class="footer__column">
+        <h3>Shop</h3>
+
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">New In</a>
+        <a href="#">Collections</a>
+      </div>
+
+      <div class="footer__column">
+        <h3>Help</h3>
+
+        <a href="#">Contact</a>
+        <a href="#">Shipping</a>
+        <a href="#">Returns</a>
+        <a href="#">FAQ</a>
+      </div>
+
+      <div class="footer__column">
+        <h3>About</h3>
+
+        <a href="#">Our Story</a>
+        <a href="#">Stores</a>
+        <a href="#">Instagram</a>
+        <a href="#">Careers</a>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 NOIR</p>
+
+        <p>All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

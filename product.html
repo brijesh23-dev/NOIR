@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>NOIR — Product</title>
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <!-- Product Page CSS -->
+    <link rel="stylesheet" href="src/css/product.css" />
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header class="header">
+
+      <a href="./index.html" class="header__logo">
+        NOIR
+      </a>
+
+      <nav class="header__nav">
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">New In</a>
+        <a href="#">Collections</a>
+      </nav>
+
+      <div class="header__actions">
+
+        <button type="button">
+          Search
+        </button>
+
+        <button type="button">
+          Wishlist
+        </button>
+
+        <button
+          type="button"
+          class="header__bag"
+        >
+          Bag
+          <span class="bag-count">0</span>
+        </button>
+
+      </div>
+
+    </header>
+
+
+    <!-- Product Details -->
+    <main class="product-page">
+
+      <!-- Product Image -->
+      <div class="product-page__image">
+        <img
+          id="product-image"
+          src=""
+          alt=""
+        />
+      </div>
+
+
+      <!-- Product Information -->
+      <div class="product-page__details">
+
+        <p
+          id="product-category"
+          class="product-page__category"
+        ></p>
+
+        <h1
+          id="product-name"
+          class="product-page__name"
+        ></h1>
+
+        <p
+          id="product-price"
+          class="product-page__price"
+        ></p>
+
+        <p
+          id="product-description"
+          class="product-page__description"
+        ></p>
+
+
+        <!-- Size -->
+        <div class="product-page__sizes">
+
+          <p>Select Size</p>
+
+          <div class="size-options">
+
+            <button
+              type="button"
+              data-size="S"
+            >
+              S
+            </button>
+
+            <button
+              type="button"
+              data-size="M"
+            >
+              M
+            </button>
+
+            <button
+              type="button"
+              data-size="L"
+            >
+              L
+            </button>
+
+            <button
+              type="button"
+              data-size="XL"
+            >
+              XL
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <!-- Actions -->
+        <div class="product-page__actions">
+
+          <button
+            type="button"
+            class="product-page__add-to-bag"
+          >
+            Add to Bag
+          </button>
+
+          <button
+            type="button"
+            class="product-page__wishlist"
+          >
+            ♡
+          </button>
+
+        </div>
+
+
+        <!-- Product Information -->
+        <div class="product-page__information">
+
+          <details>
+
+            <summary>
+              Product Details
+            </summary>
+
+            <p>
+              Designed with a clean silhouette and
+              premium materials for everyday wear.
+            </p>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Shipping & Returns
+            </summary>
+
+            <p>
+              Standard delivery and easy returns
+              are available.
+            </p>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Care
+            </summary>
+
+            <p>
+              Follow the care instructions provided
+              with the product.
+            </p>
+
+          </details>
+
+        </div>
+
+      </div>
+
+    </main>
+
+
+    <!-- Bag Panel -->
+    <aside class="bag-panel">
+
+      <!-- Bag Header -->
+      <div class="bag-panel__header">
+
+        <h2>
+          Your Bag
+        </h2>
+
+        <button
+          type="button"
+          class="bag-panel__close"
+        >
+          ×
+        </button>
+
+      </div>
+
+
+      <!-- Bag Items -->
+      <div class="bag-panel__items">
+        <!-- JavaScript will insert bag items here -->
+      </div>
+
+
+      <!-- Bag Footer -->
+      <div class="bag-panel__footer">
+
+        <p>
+          <span>Total</span>
+
+          <span class="bag-panel__total">
+            ₹0
+          </span>
+        </p>
+
+        <button
+          type="button"
+          class="bag-panel__checkout"
+        >
+          Checkout
+        </button>
+
+      </div>
+
+    </aside>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <div class="footer__brand">
+
+        <h3>
+          NOIR
+        </h3>
+
+        <p>
+          Designed without excess.
+        </p>
+
+      </div>
+
+
+      <div class="footer__links">
+
+        <div>
+
+          <h4>
+            Shop
+          </h4>
+
+          <a href="#">
+            Women
+          </a>
+
+          <a href="#">
+            Men
+          </a>
+
+          <a href="#">
+            New In
+          </a>
+
+        </div>
+
+
+        <div>
+
+          <h4>
+            Help
+          </h4>
+
+          <a href="#">
+            Contact
+          </a>
+
+          <a href="#">
+            Shipping
+          </a>
+
+          <a href="#">
+            Returns
+          </a>
+
+        </div>
+
+
+        <div>
+
+          <h4>
+            About
+          </h4>
+
+          <a href="#">
+            Our Story
+          </a>
+
+          <a href="#">
+            Stores
+          </a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+    <!-- Product Page JavaScript -->
+    <script
+      type="module"
+      src="/src/product.js"
+    ></script>
+
+  </body>
+</html>

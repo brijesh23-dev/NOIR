@@ -1,0 +1,237 @@
+
+            <div class="product-grid">
+
+                <!-- Product 1 -->
+
+                <article class="product-card">
+
+                    <div class="product-card__image-wrapper">
+
+                        <img
+                            class="product-card__image"
+                            src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=900&q=80"
+                            alt="Oversized wool jacket"
+                        >
+
+                        <button class="product-card__wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__info">
+
+                        <div>
+                            <h3 class="product-card__name">
+                                Oversized Wool Jacket
+                            </h3>
+
+                            <p class="product-card__category">
+                                Women
+                            </p>
+                        </div>
+
+                        <p class="product-card__price">
+                            ₹7,990
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 2 -->
+
+                <article class="product-card">
+
+                    <div class="product-card__image-wrapper">
+
+                        <img
+                            class="product-card__image"
+                            src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=900&q=80"
+                            alt="Minimal black jacket"
+                        >
+
+                        <button class="product-card__wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__info">
+
+                        <div>
+                            <h3 class="product-card__name">
+                                Minimal Black Jacket
+                            </h3>
+
+                            <p class="product-card__category">
+                                Men
+                            </p>
+                        </div>
+
+                        <p class="product-card__price">
+                            ₹6,990
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 3 -->
+
+                <article class="product-card">
+
+                    <div class="product-card__image-wrapper">
+
+                        <img
+                            class="product-card__image"
+                            src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=80"
+                            alt="Long minimalist dress"
+                        >
+
+                        <button class="product-card__wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__info">
+
+                        <div>
+                            <h3 class="product-card__name">
+                                Long Minimal Dress
+                            </h3>
+
+                            <p class="product-card__category">
+                                Women
+                            </p>
+                        </div>
+
+                        <p class="product-card__price">
+                            ₹5,490
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 4 -->
+
+                <article class="product-card">
+
+                    <div class="product-card__image-wrapper">
+
+                        <img
+                            class="product-card__image"
+                            src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80"
+                            alt="Relaxed trousers"
+                        >
+
+                        <button class="product-card__wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__info">
+
+                        <div>
+                            <h3 class="product-card__name">
+                                Relaxed Trousers
+                            </h3>
+
+                            <p class="product-card__category">
+                                Men
+                            </p>
+                        </div>
+
+                        <p class="product-card__price">
+                            ₹3,990
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 5 -->
+
+                <article class="product-card">
+
+                    <div class="product-card__image-wrapper">
+
+                        <img
+                            class="product-card__image"
+                            src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80"
+                            alt="Oversized shirt"
+                        >
+
+                        <button class="product-card__wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__info">
+
+                        <div>
+                            <h3 class="product-card__name">
+                                Oversized Shirt
+                            </h3>
+
+                            <p class="product-card__category">
+                                Women
+                            </p>
+                        </div>
+
+                        <p class="product-card__price">
+                            ₹2,990
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 6 -->
+
+                <article class="product-card">
+
+                    <div class="product-card__image-wrapper">
+
+                        <img
+                            class="product-card__image"
+                            src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80"
+                            alt="Structured coat"
+                        >
+
+                        <button class="product-card__wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+                    <div class="product-card__info">
+
+                        <div>
+                            <h3 class="product-card__name">
+                                Structured Coat
+                            </h3>
+
+                            <p class="product-card__category">
+                                Women
+                            </p>
+                        </div>
+
+                        <p class="product-card__price">
+                            ₹8,990
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
